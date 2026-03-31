@@ -34,21 +34,23 @@ The **Library Management System** is a desktop-based application designed to sim
 Library-Management-System/
 │
 ├── src/
-│   ├── LoginGUI.java
-│   ├── AddBook.java
-│   ├── AddMember.java
-│   ├── IssueBook.java
-│   ├── Library.java
-│   ├── DBConnection.java
-│   ├── Main.java
-│   ├── ReturnBook.java
-│   ├── ViewBook.java
-│   ├── VIewMembers.java
+│ ├── LoginGUI.java # Login interface
+│ ├── AddBook.java # Add new books
+│ ├── AddMember.java # Add new members
+│ ├── IssueBook.java # Issue books
+│ ├── ReturnBook.java # Return books
+│ ├── ViewBook.java # View book records
+│ ├── ViewMembers.java # View member details
+│ ├── Library.java # Core logic
+│ ├── DBConnection.java # Database connection
+│ └── Main.java # Application entry point
 │
 ├── database/
-│   └── Database.sql
-│   └── Book,memers,issues.sql
-│   └── Name and paswword.sql
-│   └── Users.sql
+│ ├── Database.sql
+│ ├── Book_members_issues.sql
+│ ├── Name_and_password.sql
+│ └── Users.sql
 │
 └── README.md
+
+
