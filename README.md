@@ -14,3 +14,32 @@ The Library Management System is a desktop-based application designed to simplif
 📊 Track Records and Transactions
 💾 MySQL Database Integration
 🎨 Modern GUI (Java Swing)
+
+🛠️ Technologies Used
+Java (Swing) – Frontend GUI
+MySQL – Database
+JDBC – Database Connectivity
+VS Code / IntelliJ – Development Environment
+
+📂 Project Structure
+Library-Management-System/
+│
+├── src/
+│   ├── LoginGUI.java
+│   ├── AddBook.java
+│   ├── AddMember.java
+│   ├── IssueBook.java
+│   ├── Library.java
+│   ├── DBConnection.java
+│   ├── Main.java
+│   ├── ReturnBook.java
+│   ├── ViewBook.java
+│   ├── VIewMembers.java
+│
+├── database/
+│   └── Database.sql
+│   └── Book,memers,issues.sql
+│   └── Name and paswword.sql
+│   └── Users.sql
+│
+└── README.md
