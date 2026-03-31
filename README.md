@@ -60,5 +60,3 @@ https://github.com/NISHIT-coder/Library-Management-System-LMS-.git
 
 
 
-Eclipse
-
