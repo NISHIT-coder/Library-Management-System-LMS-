@@ -40,7 +40,7 @@ Library-Management-System/
 │   ├── ReturnBook.java      # Return books
 │   ├── ViewBook.java        # View book records
 │   ├── ViewMembers.java     # View member details
-│   ├── Library.java         # Core logic
+│   ├── Library GUI.java     # Core logic
 │   ├── DBConnection.java    # Database connection
 │   └── Main.java            # Application entry point
 ├── database/
@@ -55,3 +55,35 @@ Library-Management-System/
 ### 🔧 Step 1: Clone Repository
 ```bash
 https://github.com/NISHIT-coder/Library-Management-System-LMS-.git
+```
+💻 Step 2: Open Project
+
+Import the project into your preferred IDE:
+
+* VS Code
+* IntelliJ IDEA
+* Eclipse
+
+🗄️ Step 3: Database Setup
+* Open MySQL
+* Create a new database
+* Import the following SQL files from the /database folder:
+    * Database.sql
+    * Book_members_issues.sql
+    * Name_and_password.sql
+    * Users.sql
+
+🔑 Step 4: Configure Database
+
+Update your database credentials in:
+ ```bash
+ DBConnection.java
+```
+▶️ Step 5: Run Application
+
+Run the main file:
+```bash
+LoginGUI.java
+Library GUI.java
+```
+      
