@@ -50,11 +50,8 @@ Library-Management-System/
 │   └── Users.sql
 └── README.md
 
----
-
 ## ⚙️ Setup & Execution Guide
 
 ### 🔧 Step 1: Clone Repository
 ```bash
 https://github.com/NISHIT-coder/Library-Management-System-LMS-.git
-
