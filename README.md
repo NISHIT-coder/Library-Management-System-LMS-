@@ -34,7 +34,7 @@ The **Library Management System** is a desktop-based application designed to sim
 Library-Management-System/
 ├── src/
 │   ├── LoginGUI.java        # Login interface
-│   ├── AddBook.java         # Add new books
+│   ├── AddBook.java         # Add new books 
 │   ├── AddMember.java       # Add new members
 │   ├── IssueBook.java       # Issue books
 │   ├── ReturnBook.java      # Return books
@@ -50,3 +50,10 @@ Library-Management-System/
 │   └── Users.sql
 └── README.md
 
+---
+
+## ⚙️ Setup & Execution Guide
+
+### 🔧 Step 1: Clone Repository
+```bash
+git clone https://github.com/your-username/library-management-system.git
